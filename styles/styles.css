@@ -1,0 +1,227 @@
+/* reset */
+:root {
+    --bg_main: #ffffff;
+    --text_light: rgb(109, 110, 120);
+    --text_med: #53627c;
+    --text_dark: #1e2432;
+    --red: #06bee8;
+    --darkred: #2311c3;
+    --orange: #ff8c00;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+   
+
+  button,
+  input {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  body {
+    font: 1rem/1.3 "Roboto", sans-serif;
+    background: var(--bg_main);
+    color: var(--text_dark);
+    padding: 70px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  
+  /* Weather App Dashboard Section */
+  
+  .heading {
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    padding: 10px 30px 30px 30px;
+    color:white;
+    background-image: linear-gradient(rgb(0, 81, 255), rgb(3, 136, 197), rgb(3, 167, 249));;
+  }
+  
+  .top-banner form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 0 ;
+  }
+  
+  .top-banner form input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+  }
+  
+  .top-banner form input::placeholder {
+    color: rgb(218, 217, 217); 
+    font-size: 20px;
+  }
+  
+  .top-banner form button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: rgb(233, 233, 233);
+    transition:rgb(174, 174, 175) 0.3s ease-in-out;
+  }
+  
+  .top-banner form button:hover {
+    background: gray;
+  }
+  
+  .top-banner form .msg {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    max-width: 450px;
+    min-height: 40px;
+  }
+  
+  
+  /* City Section*/
+  .a-section {
+    margin: 70px 0 20px;
+  }
+  
+  .a-section .cities {
+    display: grid;
+    grid-gap: 32px 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .a-section .city {
+    position: relative;
+    padding: 40px 10%;
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+    width:80%;
+  }
+  
+  .a-section .city::after {
+    content: '';
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    left: 5%;
+    opacity: 0.3;
+  }
+  
+  .a-section figcaption {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .a-section .city-temp {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: gray;
+  }
+  
+  .a-section .city sup {
+    font-size: 0.5em;
+  }
+  
+  .a-section .city-name sup {
+    padding: 0.2em 0.6em;
+    border-radius: 5px;
+    color: gray;
+    background: lightgray;
+  }
+  
+  .a-section .city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    body {
+      padding: 30px;
+    }
+    
+    .a-section .cities {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .heading,
+    .a-section .city-temp {
+      font-size: 2rem;
+    }
+    
+    .a-section {
+      margin-top: 20px;
+    }
+    .top-banner form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .top-banner form input,
+    .top-banner form button {
+      width: 100%;
+    }
+  
+    .top-banner form button {
+      margin: 20px 0 0 0;
+    }
+    
+    .top-banner form .msg {
+      position: static;
+      max-width: none;
+      min-height: 0;
+      margin-top: 10px;
+    }
+  
+    .a-section .cities {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    body {
+      padding: 15px;
+    }
+    
+  }
+  
+  
