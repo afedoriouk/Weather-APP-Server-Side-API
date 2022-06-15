@@ -79,7 +79,7 @@ getWeatherFromCoords = Get Weather from the Coordinates is a request URL from th
 
 
 ![Weather-Image-1](./Images/weather-img-1.png/width=200px)
-
+<img src="https://github.com/afedoriouk/Weather-APP-Server-Side-API/blob/main/Images/weather-img-1.png" width="250" height="">
 
 ## Review
 
