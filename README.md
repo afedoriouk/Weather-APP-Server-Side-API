@@ -77,8 +77,8 @@ Location Parameters include:
 getWeatherFromCoords = Get Weather from the Coordinates is a request URL from the OpenWeather One Call API.
 
 
-![](/weather-img-1.png|width=250)
-![Weather-Image-1](./weather-img-1.png | width=500)
+
+![Weather-Image-1](./Images/weather-img-1.png | width=500)
 
 
 ## Review
