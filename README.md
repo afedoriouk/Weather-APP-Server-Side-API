@@ -4,10 +4,10 @@ Developers are often tasked with retrieving data from another application's API 
 
 Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Read through the documentation for setup and usage instructions. You will use `localStorage` to store any persistent data.
 
-[OpenWeather One Call API] (https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key})
+[OpenWeather One Call API] (https://api.openweathermap.org/)
 Connection to the API Open Weather Map is validated with the unique identifyer API KEY which is issued to individual accound user name.
 
-API_key = ('87a484b7a1b8306b493ddb555bad1acd')
+API_key = ('87a484b7a1b830...................')
 
 ## User Story
 
@@ -78,7 +78,7 @@ getWeatherFromCoords = Get Weather from the Coordinates is a request URL from th
 
 
 ![](/weather-img-1.png|width=250)
-![Weather Image 1](https://github.com/afedoriouk/Weather-APP-Server-Side-API/blob/main/weather-img-1.png | width=100)
+![Weather-Image-1](../main/weather-img-1.png | width=100)
 
 
 ## Review
