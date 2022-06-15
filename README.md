@@ -78,7 +78,7 @@ getWeatherFromCoords = Get Weather from the Coordinates is a request URL from th
 
 
 ![](/weather-img-1.png|width=250)
-![Weather-Image-1](../main/weather-img-1.png | width=100)
+![Weather-Image-1](./weather-img-1.png | width=500)
 
 
 ## Review
