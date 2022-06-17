@@ -72,6 +72,14 @@ Location Parameters include:
             lat: currentLoc.getLatitude(),
             lon: currentLon.getLongitude(),
             unit: currentUnit.getUnit(),
+            
+            
+<img width="1070" alt="weather-app-api-img-1" src="https://user-images.githubusercontent.com/98120553/174402143-641c4032-f305-44dc-9e64-7ba40e8d7875.png" width="450" height="">
+
+
+
+![Uploading weather-app-api-img-1.png…]()
+
 
 
 getWeatherFromCoords = Get Weather from the Coordinates is a request URL from the OpenWeather One Call API.
