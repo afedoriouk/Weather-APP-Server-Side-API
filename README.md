@@ -11,7 +11,7 @@ API_key = ('87a484b7a1b830...................')
 
 ## User Story
 
-The Weather APP Server Side API is a very usefull tool for the people that love to travel.
+The Weather APP Server Side API is a very usefull tool for the people that love to travel.</br>
 They can access the weather outlook for the multiple cities and can plan their trip accordingly to the weather report.
 
 
@@ -27,19 +27,19 @@ The following image demonstrates the application functionality:
 
 
 ## Endpoint:
-- User have to use the endpoint api.openweathermap.org for the API calls
-- Example of API call:
+- User have to use the endpoint api.openweathermap.org for the API calls</br>
+- Example of API call:</br>
 (https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=imperial`;)
-## API key:
-- Your API key is 87a484b7a1b83.............
+## API key:</br>
+- Your API key is 87a484b7a1b83.............</br>
 ## Included Technologies:
 
-HTML
-CSS
-JS
-   script.js
-   index.html
-   styles.css
+HTML</br>
+CSS</br>
+JS</br>
+   script.js</br>
+   index.html</br>
+   styles.css</br>
 
 
 
@@ -56,10 +56,10 @@ By using these parameters user can exclude some parts of the weather data from t
 ## Source
 Google Search
 https://openweathermap.org/
-The One Call API provides the following weather data for any geographical coordinates:
-Current weather
-Minute forecast for 1 hour
-Hourly forecast for 48 hours
-Daily forecast for 8 days
-National weather alerts
+The One Call API provides the following weather data for any geographical coordinates:</br>
+Current weather</br>
+Minute forecast for 1 hour</br>
+Hourly forecast for 48 hours</br>
+Daily forecast for 8 days</br>
+National weather alerts</br>
 
