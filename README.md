@@ -54,8 +54,8 @@ By using these parameters user can exclude some parts of the weather data from t
 
 
 ## Source
-Google Search
-https://openweathermap.org/
+Google Search</br>
+https://openweathermap.org/</br>
 The One Call API provides the following weather data for any geographical coordinates:</br>
 Current weather</br>
 Minute forecast for 1 hour</br>
