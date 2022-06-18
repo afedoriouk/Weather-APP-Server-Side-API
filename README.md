@@ -1,12 +1,12 @@
 # 06 Server-Side APIs: Weather Dashboard
 
-The Weather APP Server Side API is a very usefull tool for the users. Developers are using data from other APIs in many aplications.  This weather APP Server Side API is one of them. User is making requests with the specific parameters to the open weather API URL. This weather dashboard runs in the browser and features dynamically updated HTML and CSS.
+The Weather APP Server Side API is a very useful tool for the users. Developers are using data from other APIs in many applications.  This weather APP Server Side API is one of them. User is making requests with the specific parameters to the open weather API URL. This weather dashboard runs in the browser and features dynamically updated HTML and CSS.
 
 User is sending requests to the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Also, user uses `localStorage` to store some data.
 
 [OpenWeather One Call API] (https://api.openweathermap.org/)
-When user connecting to the API Open Weather Map is validated with the unique identifyer API KEY which is issued to individual accound user name.
-Open weather map.org offers free service with the cretion of the account with the user name and password.  Every user is assigned a unique 
+When user connecting to the API Open Weather Map is validated with the unique identifier API KEY which is issued to individual account user name.
+Open weather map.org offers free service with the creation of the account with the user name and password.  Every user is assigned a unique 
 API_key = ('87a484b7a1b830...................')
 
 ## User Story
