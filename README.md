@@ -48,10 +48,10 @@ JS
 https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}     
 
 ## Parameters          
-Geographical coordinates (latitude, longitude) `lat, lon``appid``exclude``units``lang`
+Geographical coordinates (latitude, longitude) `lat``lon``appid``exclude``units``lang`</br>
 By using these parameters user can exclude some parts of the weather data from the API response.
 
-<img src="https://github.com/afedoriouk/Weather-APP-Server-Side-API/blob/main/Images/weather-img-1.png" width="450" height="">
+
 
 ## Source
 Google Search
