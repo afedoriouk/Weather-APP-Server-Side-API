@@ -29,7 +29,7 @@ The following image demonstrates the application functionality:
 ## Endpoint:
 - User have to use the endpoint api.openweathermap.org for the API calls
 - Example of API call:
-[api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=87a484b7a1b8306b493ddb555bad1acd](https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=imperial`;)
+(https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=imperial`;)
 ## API key:
 - Your API key is 87a484b7a1b83.............
 ## Included Technologies:
@@ -48,8 +48,8 @@ JS
 https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}     
 
 ## Parameters          
-Geographical coordinates (latitude, longitude) `lat, lon``appid``exclude``units` `lang`
-By using this parameter you can exclude some parts of the weather data from the API response.
+Geographical coordinates (latitude, longitude) `lat, lon``appid``exclude``units``lang`
+By using these parameters user can exclude some parts of the weather data from the API response.
 
 <img src="https://github.com/afedoriouk/Weather-APP-Server-Side-API/blob/main/Images/weather-img-1.png" width="450" height="">
 
