@@ -1,98 +1,65 @@
 # 06 Server-Side APIs: Weather Dashboard
 
-This Weather APP Server Side API is a very usefull tool for the developersDevelopers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+The Weather APP Server Side API is a very usefull tool for the users. Developers are using data from other APIs in many aplications.  This weather APP Server Side API is one of them. User is making requests with the specific parameters to the open weather API URL. This weather dashboard runs in the browser and features dynamically updated HTML and CSS.
 
-Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Read through the documentation for setup and usage instructions. You will use `localStorage` to store any persistent data.
+User is sending requests to the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Also, user uses `localStorage` to store some data.
 
 [OpenWeather One Call API] (https://api.openweathermap.org/)
-Connection to the API Open Weather Map is validated with the unique identifyer API KEY which is issued to individual accound user name.
-
+When user connecting to the API Open Weather Map is validated with the unique identifyer API KEY which is issued to individual accound user name.
+Open weather map.org offers free service with the cretion of the account with the user name and password.  Every user is assigned a unique 
 API_key = ('87a484b7a1b830...................')
 
 ## User Story
 
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+The Weather APP Server Side API is a very usefull tool for the people that love to travel.
+They can access the weather outlook for the multiple cities and can plan their trip accordingly to the weather report.
 
 
-## Acceptance Criteria
+## Application Functionality
 
 ```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
 
+```
+![Uploading weather-app-api-img-1.png…]()
 The following image demonstrates the application functionality:
 
-![weather dashboard demo](./Assets/06-server-side-apis-homework-demo.png)
+<img width="1070" alt="weather-app-api-img-1" src="https://user-images.githubusercontent.com/98120553/174402143-641c4032-f305-44dc-9e64-7ba40e8d7875.png" width="450" height="">
 
 
 ## Endpoint:
-- Please, use the endpoint api.openweathermap.org for your API calls
+- User have to use the endpoint api.openweathermap.org for the API calls
 - Example of API call:
-api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=87a484b7a1b8306b493ddb555bad1acd
+[api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=87a484b7a1b8306b493ddb555bad1acd](https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=imperial`;)
 ## API key:
-- Your API key is 87a...............
-
+- Your API key is 87a484b7a1b83.............
 ## Included Technologies:
 
 HTML
 CSS
 JS
-    CurrentLocation.js
-    dataFuinction.js
-    domFunction.js
-Also, folder structure was subdivided into:
-SCSS
-COMPONENTS
-    buttons.scss
-    a11y.sccs (to display elements offscreen)
-LAYOUT
-    buttons.scss
-    currenForecast.scss
-    dailyForecast.scss
-    navButtons.scss
-    searchBar.scss
-THEMES
-    backgrounds
+   script.js
+   index.html
+   styles.css
 
-Geo Location for the correct idrntifyer of the weather location.
-Location Parameters include:
-            name: currentLoc.getName(),
-            lat: currentLoc.getLatitude(),
-            lon: currentLon.getLongitude(),
-            unit: currentUnit.getUnit(),
+
+
             
-            
-<img width="1070" alt="weather-app-api-img-1" src="https://user-images.githubusercontent.com/98120553/174402143-641c4032-f305-44dc-9e64-7ba40e8d7875.png" width="450" height="">
+## API Call:           
+https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}     
 
-
-
-![Uploading weather-app-api-img-1.png…]()
-
-
-
-getWeatherFromCoords = Get Weather from the Coordinates is a request URL from the OpenWeather One Call API.
+## Parameters          
+Geographical coordinates (latitude, longitude) `lat, lon``appid``exclude``units` `lang`
+By using this parameter you can exclude some parts of the weather data from the API response.
 
 <img src="https://github.com/afedoriouk/Weather-APP-Server-Side-API/blob/main/Images/weather-img-1.png" width="450" height="">
 
-## Review
+## Source
+Google Search
+https://openweathermap.org/
+The One Call API provides the following weather data for any geographical coordinates:
+Current weather
+Minute forecast for 1 hour
+Hourly forecast for 48 hours
+Daily forecast for 8 days
+National weather alerts
 
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a high-quality README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
